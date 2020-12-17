@@ -20,3 +20,12 @@ hr {
 h1 {
   font-family: "Abril Fatface", cursive;
 }
+
+a {
+  text-decoration: none;
+  color: #453643;
+}
+
+a:hover {
+  color: #00858f;
+}
