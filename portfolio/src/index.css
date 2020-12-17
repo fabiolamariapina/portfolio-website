@@ -32,6 +32,6 @@ a:hover {
 
 /* HEADER STYLING */
 /* website name styling */
-h1 {
+.website-name {
   text-align: center;
 }
