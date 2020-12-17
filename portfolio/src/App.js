@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Landing from "./components/Landing";
 
 export default class App extends Component {
   render() {
@@ -9,11 +10,7 @@ export default class App extends Component {
         <Header />
         <hr />
         <main>
-          <h1>Hello,</h1>
-          <h3>
-            I am a software engineer who seeks to create user-friendly apps and
-            websites.
-          </h3>
+          <Landing />
         </main>
         <hr />
         <Footer />

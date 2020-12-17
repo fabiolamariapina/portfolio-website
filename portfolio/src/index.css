@@ -47,3 +47,14 @@ a:hover {
   font-style: italic;
   text-align: center;
 }
+
+/* LANDING STYLING */
+.greeting,
+.tag-line {
+  text-align: center;
+}
+
+.greeting,
+.tag-line {
+  font-size: 60px;
+}
