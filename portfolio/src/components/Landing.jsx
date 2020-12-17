@@ -5,7 +5,7 @@ export default class Landing extends Component {
     return (
       <div className="landing">
         <h1 className="greeting">Hello,</h1>
-        <img src="/images/headshot.jpg" alt="headshot" />
+        <img className="headshot" src="/images/headshot.jpg" alt="headshot" />
         <h3 className="tag-line">
           I am a <br></br>
           software engineer who <br></br>
