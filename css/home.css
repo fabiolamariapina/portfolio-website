@@ -1,10 +1,22 @@
+/* import roboto font from google */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* import Abril Fatface  */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
 /* general styling */
 body {
   background-color: #ffffeb;
   color: #453643;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 hr {
   border: 1px solid #ff4000;
   opacity: 0.5;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
 }
