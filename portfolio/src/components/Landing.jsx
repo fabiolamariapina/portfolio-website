@@ -6,8 +6,10 @@ export default class Landing extends Component {
       <div className="landing">
         <h1 className="greeting">Hello,</h1>
         <h3 className="tag-line">
-          I am a software engineer who seeks to create user-friendly apps and
-          websites.
+          I am a <br></br>
+          software engineer who <br></br>
+          seeks to create user-friendly <br></br>
+          apps and websites.
         </h3>
       </div>
     );
