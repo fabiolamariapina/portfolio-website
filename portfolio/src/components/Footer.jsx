@@ -5,7 +5,14 @@ export default class Footer extends Component {
     return (
       <footer>
         <p className="find-me">
-          FIND ME ON GITHUB, LINKEDIN, TWITTER, TIKTOK, INSTAGRAM, AND MEDIUM
+          FIND ME ON GITHUB AND
+          <a
+            className="linkedIn-link"
+            href="https://www.linkedin.com/in/fabiolampina/"
+            target="_blank"
+          >
+            LINKEDIN
+          </a>
         </p>
       </footer>
     );
