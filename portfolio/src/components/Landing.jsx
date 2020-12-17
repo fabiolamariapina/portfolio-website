@@ -4,7 +4,7 @@ export default class Landing extends Component {
   render() {
     return (
       <div className="landing">
-        <h1 className="greeting">Hello,</h1>
+        <h1 className="greeting">Hello!</h1>
         <img className="headshot" src="/images/headshot.jpg" alt="headshot" />
         <h3 className="tag-line">
           I am a <br></br>
