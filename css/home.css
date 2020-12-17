@@ -1,0 +1,10 @@
+/* general styling */
+body {
+  background-color: #ffffeb;
+  color: #453643;
+}
+
+hr {
+  border: 1px solid #ff4000;
+  opacity: 0.5;
+}
