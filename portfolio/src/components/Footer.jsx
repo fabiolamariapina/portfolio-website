@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render() {
     return (
       <footer>
-        <p>
+        <p className="find-me">
           FIND ME ON GITHUB, LINKEDIN, TWITTER, TIKTOK, INSTAGRAM, AND MEDIUM
         </p>
       </footer>

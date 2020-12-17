@@ -35,3 +35,15 @@ a:hover {
 .website-name {
   text-align: center;
 }
+
+/* nav bar/menu styling */
+.nav-bar {
+  display: flex;
+  justify-content: center;
+}
+
+/* FOOTER  STYLING*/
+.find-me {
+  font-style: italic;
+  text-align: center;
+}
