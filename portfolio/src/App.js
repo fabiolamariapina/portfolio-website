@@ -7,15 +7,17 @@ import Landing from "./components/Landing";
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <Router>
         <Header />
         <hr />
         <main>
-          <Landing />
+          <Switch>
+            <Route path="/" exact component={Landing} />
+          </Switch>
         </main>
         <hr />
         <Footer />
-      </div>
+      </Router>
     );
   }
 }
