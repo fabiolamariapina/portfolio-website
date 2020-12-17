@@ -29,3 +29,9 @@ a {
 a:hover {
   color: #00858f;
 }
+
+/* HEADER STYLING */
+/* website name styling */
+h1 {
+  text-align: center;
+}
