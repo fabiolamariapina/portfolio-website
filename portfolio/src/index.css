@@ -14,6 +14,7 @@ body {
   --landing-load-time: 300ms;
   --about-load-time: 300ms;
   --footer-load-time: 300ms;
+  --projects-load-time: 300ms;
 }
 
 main {
@@ -133,7 +134,22 @@ a:hover {
 }
 
 /* MY PROJECTS PAGE STYLING */
-.my-projects-header {
+.my-projects {
   text-align: center;
+  animation: projects-load var(--projects-load-time) ease-in 50ms;
+}
+
+@keyframes projects-load {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+#my-projects-header {
   font-size: 48px;
 }
