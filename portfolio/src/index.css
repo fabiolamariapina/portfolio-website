@@ -131,3 +131,9 @@ a:hover {
 .about-me-spiel {
   margin: 0px 150px 40px;
 }
+
+/* MY PROJECTS PAGE STYLING */
+.my-projects-header {
+  text-align: center;
+  font-size: 48px;
+}
