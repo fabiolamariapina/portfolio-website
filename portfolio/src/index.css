@@ -103,3 +103,9 @@ a:hover {
     opacity: 1;
   }
 }
+
+/* ABOUT ME PAGE STYLING */
+#about-me-header {
+  text-align: center;
+  font-size: 48px;
+}
