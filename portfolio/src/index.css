@@ -17,7 +17,7 @@ body {
 }
 
 hr {
-  border: 1px solid #f8afa6;
+  border: 1px solid #f9f1f0;
 }
 
 h1 {
@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #f79489;
+  color: #4a2c2a;
 }
 
 /* HEADER STYLING */
