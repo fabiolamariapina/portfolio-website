@@ -10,14 +10,12 @@ export default class App extends Component {
     return (
       <Router>
         <Header />
-        <hr />
         <main>
           <Switch>
             <Route path="/" exact component={Landing} />
             <Route path="/about-me" exact component={AboutMe} />
           </Switch>
         </main>
-        <hr />
         <Footer />
       </Router>
     );

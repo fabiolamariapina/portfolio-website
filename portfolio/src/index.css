@@ -6,8 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 body {
-  background-color: #b76e79;
-  color: #f9f1f0;
+  background-color: #e8b9c2;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   --nav-load-time: 300ms;
@@ -16,8 +16,11 @@ body {
   --footer-load-time: 300ms;
 }
 
-hr {
-  border: 1px solid #f9f1f0;
+main {
+  background-color: #ffffff;
+  color: #1a1919;
+  max-width: 100%;
+  padding: 0px 0px 3px 0px;
 }
 
 h1 {
@@ -26,7 +29,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #f9f1f0;
+  color: #ffffff;
 }
 
 a:hover {
