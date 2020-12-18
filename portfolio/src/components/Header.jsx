@@ -1,18 +1,38 @@
 import React, { Component } from "react";
 import Nav from "react-bootstrap/Nav";
+import { BrowserRouter as Link } from "react-router-dom";
 
 export default class Header extends Component {
   render() {
     return (
       <header>
-        <h1 className="website-name" id="name-of-website">
-          FABIOLA PINA
-        </h1>
+        <Link to="/" className="link-to-home-">
+          <h1 className="website-name" id="name-of-website">
+            FABIOLA PINA
+          </h1>
+        </Link>
         <div className="nav-bar">
           <Nav id="navigation">
-            <a href="/html/">HOME</a> | <a href="/css/">ABOUT ME</a> |{" "}
-            <a href="/js/">MY PROJECTS</a> | <a href="/python/">TESTIMONIALS</a>{" "}
-            | <a href="/html/">CONTACT ME</a> | <a href="/html/">RESUME</a>
+            <Link to="/" className="link-to-home-">
+              HOME
+            </Link>{" "}
+            |{" "}
+            <Link to="/about-me" className="link-to-about-me">
+              ABOUT ME
+            </Link>{" "}
+            |{" "}
+            <Link to="/my-projects" className="link-to-my-projects">
+              MY PROJECTS
+            </Link>{" "}
+            |{" "}
+            <Link to="/testimonials" className="link-to-testimonials">
+              TESTIMONIALS
+            </Link>{" "}
+            |{" "}
+            <Link to="/contact-me" className="link-to-contact-me">
+              CONTACT ME
+            </Link>{" "}
+            | <a href="/html/">RESUME</a>
           </Nav>
         </div>
       </header>
