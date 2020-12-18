@@ -64,7 +64,7 @@ a:hover {
 }
 
 /* FOOTER  STYLING*/
-.find-me {
+.copyright {
   font-style: italic;
   text-align: center;
   animation: footer-load var(--footer-load-time) ease-in 50ms;

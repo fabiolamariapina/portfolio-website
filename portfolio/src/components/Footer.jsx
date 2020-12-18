@@ -5,26 +5,7 @@ export default class Footer extends Component {
     return (
       <div className="footer">
         <footer>
-          <p className="find-me">
-            FIND ME ON
-            <a
-              className="linkedIn-link"
-              href="https://github.com/fabiolamariapina"
-              target="_blank"
-            >
-              {" "}
-              GITHUB{" "}
-            </a>
-            AND
-            <a
-              className="linkedIn-link"
-              href="https://www.linkedin.com/in/fabiolampina/"
-              target="_blank"
-            >
-              {" "}
-              LINKEDIN{" "}
-            </a>
-          </p>
+          <p className="copyright">2020 © All Right Reserved</p>
         </footer>
       </div>
     );
