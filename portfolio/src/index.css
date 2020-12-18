@@ -11,6 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   --nav-load-time: 300ms;
+  --landing-load-time: 300ms;
 }
 
 hr {
@@ -64,7 +65,7 @@ a:hover {
 
 /* LANDING STYLING */
 .landing {
-  animation: landing-load 300ms ease-in 500ms;
+  animation: landing-load var(--landing-load-time) ease-in 50ms;
 }
 
 .greeting,
@@ -87,7 +88,7 @@ a:hover {
     opacity: 0;
   }
   100% {
-    transform: translateY(-20px);
-    opacity: 0;
+    transform: translateY(0px);
+    opacity: 1;
   }
 }
