@@ -105,7 +105,14 @@ a:hover {
 }
 
 /* ABOUT ME PAGE STYLING */
-#about-me-header {
+.about-me {
   text-align: center;
+}
+
+#about-me-header {
   font-size: 48px;
+}
+
+.about-me-spiel {
+  margin: 0px 100px 40px;
 }
