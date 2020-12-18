@@ -29,7 +29,14 @@ export default class Header extends Component {
               <Link to="/contact-me" className="link-to-contact-me">
                 CONTACT ME
               </Link>{" "}
-              | <a href="/html/">RESUME</a>
+              | <a href="/html/">RESUME</a> |{" "}
+              <Link to="/contact-me" className="link-to-contact-me">
+                GITHUB
+              </Link>{" "}
+              |{" "}
+              <Link to="/contact-me" className="link-to-contact-me">
+                LINKEDIN
+              </Link>
             </Nav>
           </div>
         </header>
