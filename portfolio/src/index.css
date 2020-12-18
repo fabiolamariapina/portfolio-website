@@ -12,6 +12,7 @@ body {
   font-weight: 300;
   --nav-load-time: 300ms;
   --landing-load-time: 300ms;
+  --about-load-time: 300ms;
   --footer-load-time: 300ms;
 }
 
@@ -107,6 +108,18 @@ a:hover {
 /* ABOUT ME PAGE STYLING */
 .about-me {
   text-align: center;
+  animation: about-load var(--about-load-time) ease-in 50ms;
+}
+
+@keyframes about-load {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 #about-me-header {
@@ -114,5 +127,5 @@ a:hover {
 }
 
 .about-me-spiel {
-  margin: 0px 100px 40px;
+  margin: 0px 150px 40px;
 }
