@@ -153,3 +153,12 @@ a:hover {
 #my-projects-header {
   font-size: 48px;
 }
+
+/* CONTACT ME PAGE STYLING */
+.contact-me {
+  text-align: center;
+}
+
+#contact-me-header {
+  font-size: 48px;
+}
