@@ -13,7 +13,7 @@ export default class Header extends Component {
         </Link>
         <div className="nav-bar">
           <Nav id="navigation">
-            <Link to="/" className="link-to-home-">
+            <Link to="/" className="link-to-home">
               HOME
             </Link>{" "}
             |{" "}
