@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Landing from "./components/Landing";
 import AboutMe from "./components/AboutMe";
 import MyProjects from "./components/MyProjects";
+import ContactMe from "./components/ContactMe";
 
 export default class App extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class App extends Component {
             <Route path="/" exact component={Landing} />
             <Route path="/about-me" exact component={AboutMe} />
             <Route path="/my-projects" exact component={MyProjects} />
+            <Route path="/contact-me" exact component={ContactMe} />
           </Switch>
         </main>
         <Footer />

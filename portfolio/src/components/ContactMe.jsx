@@ -5,7 +5,7 @@ export default class ContactMe extends Component {
     return (
       <div className="contact-page">
         <h1 className="contact-me" id="contact-me-header">
-          My Projects
+          Contact Me
         </h1>
       </div>
     );

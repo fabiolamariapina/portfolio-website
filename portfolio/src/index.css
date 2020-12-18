@@ -15,6 +15,7 @@ body {
   --about-load-time: 300ms;
   --footer-load-time: 300ms;
   --projects-load-time: 300ms;
+  --contact-load-time: 300ms;
 }
 
 main {
@@ -157,6 +158,18 @@ a:hover {
 /* CONTACT ME PAGE STYLING */
 .contact-me {
   text-align: center;
+  animation: contact-load var(--contact-load-time) ease-in 50ms;
+}
+
+@keyframes contact-load {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 #contact-me-header {
