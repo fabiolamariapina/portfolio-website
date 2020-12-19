@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "react-bootstrap/Button";
 
 export default class ContactMe extends Component {
   render() {
@@ -38,9 +39,7 @@ export default class ContactMe extends Component {
                 placeholder="Message"
               ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
+            <Button as="input" type="submit" value="Submit" />{" "}
           </form>
         </div>
       </div>
