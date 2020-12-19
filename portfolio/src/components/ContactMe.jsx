@@ -39,7 +39,12 @@ export default class ContactMe extends Component {
                 placeholder="Message"
               ></textarea>
             </div>
-            <Button as="input" type="submit" value="Submit" />{" "}
+            <Button
+              id="submit-button"
+              as="input"
+              type="submit"
+              value="Submit"
+            />{" "}
           </form>
         </div>
       </div>

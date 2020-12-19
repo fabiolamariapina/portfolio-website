@@ -190,3 +190,17 @@ input {
   margin: 5px 0;
   padding: 40px;
 }
+
+#submit-button {
+  background-color: #e8b9c2;
+  color: #ffffff;
+  border: 1px solid #e8b9c2;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+#submit-button:hover {
+  background-color: #ffffff;
+  color: #e8b9c2;
+}
