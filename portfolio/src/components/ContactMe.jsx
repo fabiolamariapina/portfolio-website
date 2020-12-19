@@ -9,6 +9,10 @@ export default class ContactMe extends Component {
       email: "",
       message: "",
     };
+    this.onNameChange = this.onNameChange.bind(this);
+    this.onEmailChange = this.onEmailChange.bind(this);
+    this.onMessageChange = this.onMessageChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
   onNameChange(event) {
     this.setState({ name: event.target.value });
