@@ -20,20 +20,22 @@ export default class ContactMe extends Component {
             // method="POST"
           >
             <div className="form-group">
-              <label htmlFor="name">Name</label>
-              <input type="text" className="form-control" />
+              <input type="text" className="form-control" placeholder="Name" />
             </div>
             <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email address</label>
               <input
                 type="email"
                 className="form-control"
                 aria-describedby="emailHelp"
+                placeholder="Email"
               />
             </div>
             <div className="form-group">
-              <label htmlFor="message">Message</label>
-              <textarea className="form-control" rows="5"></textarea>
+              <textarea
+                className="form-control"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
             </div>
             <button type="submit" className="btn btn-primary">
               Submit
