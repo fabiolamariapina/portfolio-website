@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from "axios";
 import Button from "react-bootstrap/Button";
 
 export default class ContactMe extends Component {
@@ -26,23 +27,18 @@ export default class ContactMe extends Component {
   }
   handleSubmit(event) {
     event.preventDefault();
-    // fetch("http://localhost:3000/send", {
-    //   method: "POST",
-    //   body: JSON.stringify(this.state),
-    //   headers: {
-    //     Accept: "application/json",
-    //     "Content-Type": "application/json",
-    //   },
-    // })
-    //   .then((response) => response.json())
-    //   .then((response) => {
-    //     if (response.status === "success") {
-    //       alert("Message Sent.");
-    //       this.resetForm();
-    //     } else if (response.status === "fail") {
-    //       alert("Message failed to send.");
-    //     }
-    //   });
+    axios({
+      method: "POST",
+      url: "http://localhost:3000/send",
+      data: this.state,
+    }).then((response) => {
+      if (response.data.status === "success") {
+        alert("Message Sent.");
+        this.resetForm();
+      } else if (response.data.status === "fail") {
+        alert("Message failed to send.");
+      }
+    });
   }
   resetForm() {
     this.setState({
