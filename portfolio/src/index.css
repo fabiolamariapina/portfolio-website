@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-  color: #4a2c2a;
+  color: #1a1919;
 }
 
 /* HEADER STYLING */
@@ -184,6 +184,12 @@ input {
   padding: 10px 55px;
   margin: 5px 0;
   box-sizing: border-box;
+}
+
+::placeholder {
+  color: #1a1919;
+  opacity: 0.85;
+  text-align: center;
 }
 
 #message {
