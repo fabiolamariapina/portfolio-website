@@ -33,6 +33,7 @@ export default class ContactMe extends Component {
             <div className="form-group">
               <textarea
                 className="form-control"
+                id="message"
                 rows="5"
                 placeholder="Message"
               ></textarea>

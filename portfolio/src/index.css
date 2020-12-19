@@ -179,3 +179,14 @@ a:hover {
 .contact-me-spiel {
   margin: 0px 150px 40px;
 }
+
+input {
+  padding: 10px 55px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+#message {
+  margin: 5px 0;
+  padding: 40px;
+}
