@@ -23,7 +23,14 @@ export default class ContactMe extends Component {
   onMessageChange(event) {
     this.setState({ message: event.target.value });
   }
-  handleSubmit(event) {}
+  handleSubmit(event) {
+    event.preventDefault();
+    this.setState({
+      name: "",
+      email: "",
+      message: "",
+    });
+  }
   render() {
     return (
       <div className="contact-page">
