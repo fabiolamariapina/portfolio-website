@@ -190,6 +190,7 @@ input {
   color: #1a1919;
   opacity: 0.85;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 #message {
