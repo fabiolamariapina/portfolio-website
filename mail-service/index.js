@@ -54,3 +54,20 @@ app.use(cors());
 app.use(express.json());
 app.use("/", router);
 app.listen(3002);
+
+// script for auto reply email
+transporter.sendMail(
+  {
+    from: "<your email address>",
+    to: email,
+    subject: "Submission was successful",
+    text: `Thank you for contacting us!\n\nForm details\nName: ${name}\nEmail: ${email}\nMessage: ${message}`,
+  },
+  function (error, info) {
+    if (error) {
+      console.log(error);
+    } else {
+      console.log("Message sent: " + info.response);
+    }
+  }
+);
