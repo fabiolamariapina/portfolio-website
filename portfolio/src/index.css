@@ -136,6 +136,19 @@ a:hover {
   margin: 0px 150px 40px;
 }
 
+.linkedin-link,
+.github-link,
+.resume-link {
+  color: #1a1919;
+}
+
+.linkedin-link:hover,
+.github-link:hover,
+.resume-link:hover {
+  color: #e8b9c2;
+  font-style: italic;
+}
+
 /* MY PROJECTS PAGE STYLING */
 .my-projects {
   text-align: center;

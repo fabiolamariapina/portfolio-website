@@ -38,8 +38,31 @@ export default class AboutMe extends Component {
             SCUBA certification, and compete in a powerlifting meet.
           </p>
           <p className="about-me" id="about-me-spiel-part-4">
-            You can find me on LinkedIn and Github. You can also see my resume
-            here.
+            You can find me on{" "}
+            <a
+              href="https://www.linkedin.com/in/fabiolampina/"
+              target="_blank"
+              className="linkedin-link"
+            >
+              LinkedIn
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://github.com/fabiolamariapina"
+              target="_blank"
+              className="github-link"
+            >
+              Github
+            </a>{" "}
+            . You can also see my resume{" "}
+            <a
+              href="https://docs.google.com/document/d/1xfdimXTQNTZAxKh_yYcIMrvWXHFCG2PzKF4YiMVuskY/edit"
+              target="_blank"
+              className="resume-link"
+            >
+              here
+            </a>{" "}
+            .
           </p>
         </div>
       </div>
