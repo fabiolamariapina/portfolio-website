@@ -29,14 +29,16 @@ h1 {
   font-family: "Abril Fatface", cursive;
 }
 
-a {
+/* a,
+.link-to-home {
   text-decoration: none;
   color: #ffffff;
 }
 
-a:hover {
+a:hover,
+{
   color: #1a1919;
-}
+} */
 
 /* HEADER STYLING */
 /* website name styling */
