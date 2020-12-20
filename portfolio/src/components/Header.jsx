@@ -40,14 +40,24 @@ export default class Header extends Component {
               <Link to="/contact-me" style={{ textDecoration: "none" }}>
                 CONTACT ME
               </Link>{" "}
-              | <a href="/html/">RESUME</a> |{" "}
-              <Link to="/contact-me" cstyle={{ textDecoration: "none" }}>
-                GITHUB
-              </Link>{" "}
               |{" "}
-              <Link to="/contact-me" style={{ textDecoration: "none" }}>
+              <a
+                href="https://docs.google.com/document/d/1xfdimXTQNTZAxKh_yYcIMrvWXHFCG2PzKF4YiMVuskY/edit"
+                target="_blank"
+              >
+                RESUME
+              </a>{" "}
+              |{" "}
+              <a href="https://github.com/fabiolamariapina" target="_blank">
+                GITHUB
+              </a>{" "}
+              |{" "}
+              <a
+                href="https://www.linkedin.com/in/fabiolampina/"
+                target="_blank"
+              >
                 LINKEDIN
-              </Link>
+              </a>{" "}
             </Nav>
           </div>
         </header>
