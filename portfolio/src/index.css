@@ -170,6 +170,11 @@ a:hover {
   font-size: 48px;
 }
 
+#completed-projects,
+#in-progress {
+  font-size: 36px;
+}
+
 /* CONTACT ME PAGE STYLING */
 .contact-me {
   text-align: center;
