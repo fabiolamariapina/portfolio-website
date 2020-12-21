@@ -1,6 +1,7 @@
 /* GENERAL STYLING, APPLIES TO ALL PAGES */
 /* import roboto font from google */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 /* import Abril Fatface  */
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
@@ -172,6 +173,35 @@ a:hover {
 #completed-projects,
 #in-progress {
   font-size: 36px;
+}
+
+#dream-destinations {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 50%;
+}
+
+#dream-destinations-link {
+  color: #1a1919;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#dream-destinations-link:hover,
+#dream-destinations-github-page:hover {
+  color: #e8b9c2;
+}
+
+#dream-destinations-description {
+  margin: 0px 150px 40px;
+  text-align: center;
+}
+
+#dream-destinations-github-page {
+  color: #1a1919;
 }
 
 /* CONTACT ME PAGE STYLING */
