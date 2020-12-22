@@ -581,3 +581,57 @@ input {
     margin: 0px 25px 25px;
   }
 }
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* HEADER STYLING */
+  .website-name {
+    font-size: 40px;
+  }
+  /* make nav bar a bit bigger */
+  #navigation {
+    font-size: 24px;
+  }
+  /* FOOTER STYLING */
+  .copyright {
+    font-size: 24px;
+  }
+  /* LANDING STYLING */
+  .greeting,
+  .tag-line {
+    font-size: 64px;
+  }
+  /* ABOUT ME PAGE STYLING */
+  #about-me-header {
+    font-size: 64px;
+  }
+  .about-me-spiel {
+    margin: 0px 30px 30px;
+    font-size: 16px;
+  }
+  /* MY PROJECTS PAGE */
+  #my-projects-header {
+    font-size: 64px;
+  }
+  #completed-projects,
+  #in-progress {
+    font-size: 40px;
+  }
+  #dream-destinations-link {
+    font-size: 32px;
+  }
+  #dream-destinations-description {
+    margin: 0px 30px 30px;
+    font-size: 16px;
+  }
+  #dream-destinations {
+    max-width: 75%;
+  }
+  /* CONTACT ME PAGE */
+  #contact-me-header {
+    font-size: 64px;
+  }
+  .contact-me-spiel {
+    margin: 0px 30px 30px;
+  }
+}
