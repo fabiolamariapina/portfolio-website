@@ -424,3 +424,55 @@ input {
     margin: 0px 15px 15px;
   }
 }
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 737px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* HEADER STYLING */
+  .website-name {
+    font-size: 32px;
+  }
+  /* make nav bar a bit bigger */
+  #navigation {
+    font-size: 22px;
+  }
+  /* FOOTER STYLING */
+  .copyright {
+    font-size: 22px;
+  }
+  /* LANDING STYLING */
+  .greeting,
+  .tag-line {
+    font-size: 56px;
+  }
+  /* ABOUT ME PAGE STYLING */
+  #about-me-header {
+    font-size: 56px;
+  }
+  .about-me-spiel {
+    margin: 0px 20px 20px;
+  }
+  /* MY PROJECTS PAGE */
+  #my-projects-header {
+    font-size: 56px;
+  }
+  #completed-projects,
+  #in-progress {
+    font-size: 36px;
+  }
+  #dream-destinations-link {
+    font-size: 28px;
+  }
+  #dream-destinations-description {
+    margin: 0px 20px 20px;
+  }
+  #dream-destinations {
+    max-width: 75%;
+  }
+  /* CONTACT ME PAGE */
+  #contact-me-header {
+    font-size: 56px;
+  }
+  .contact-me-spiel {
+    margin: 0px 20px 20px;
+  }
+}
