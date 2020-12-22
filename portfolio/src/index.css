@@ -295,4 +295,21 @@ input {
   .about-me-spiel {
     margin: 0px 5px 5px;
   }
+  /* MY PROJECTS PAGE */
+  #my-projects-header {
+    font-size: 44px;
+  }
+  #completed-projects,
+  #in-progress {
+    font-size: 24px;
+  }
+  #dream-destinations-link {
+    font-size: 16px;
+  }
+  #dream-destinations-description {
+    margin: 0px 5px 5px;
+  }
+  #dream-destinations {
+    max-width: 75%;
+  }
 }
