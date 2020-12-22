@@ -394,33 +394,33 @@ input {
   }
   /* ABOUT ME PAGE STYLING */
   #about-me-header {
-    font-size: 48px;
+    font-size: 52px;
   }
   .about-me-spiel {
-    margin: 0px 10px 10px;
+    margin: 0px 15px 15px;
   }
   /* MY PROJECTS PAGE */
   #my-projects-header {
-    font-size: 48px;
+    font-size: 52px;
   }
   #completed-projects,
   #in-progress {
-    font-size: 28px;
+    font-size: 32px;
   }
   #dream-destinations-link {
-    font-size: 20px;
+    font-size: 24px;
   }
   #dream-destinations-description {
-    margin: 0px 10px 10px;
+    margin: 0px 15px 15px;
   }
   #dream-destinations {
     max-width: 75%;
   }
   /* CONTACT ME PAGE */
   #contact-me-header {
-    font-size: 48px;
+    font-size: 52px;
   }
   .contact-me-spiel {
-    margin: 0px 10px 10px;
+    margin: 0px 15px 15px;
   }
 }
