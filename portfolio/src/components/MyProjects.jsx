@@ -52,6 +52,72 @@ export default class MyProjects extends Component {
           <h3 className="my-projects" id="in-progress">
             In Progress{" "}
           </h3>
+          <p className="my-projects">
+            <a
+              href="https://github.com/fabiolamariapina/100-days-of-code/tree/master/makeup-organizer"
+              target="_blank"
+              id="makeup-organizer-link"
+            >
+              Makeup Organizer
+            </a>{" "}
+          </p>
+          <img
+            className="my-projects"
+            id="makeup-organizer"
+            src="/images/makeup-organizer.jpg"
+            alt="makeup"
+          />
+          <p className="my=projects" id="makeup-organizer-description">
+            Makeup Organizer is a makeup organization app. The user creates an
+            account or logs in, they can add, edit, or delete items in their
+            collection. This app was originally done with Node, Express, and EJS
+            as my second project in General Assembly's bootcamp. Now, I am
+            updating it and improving it using React and React Router. I am also
+            planning on experimenting with a new CSS framework like Bulma or
+            materialize. To follow along as I create this app, visit the Github
+            page{" "}
+            <a
+              href="https://github.com/fabiolamariapina/100-days-of-code/tree/master/makeup-organizer"
+              target="_blank"
+              id="makeup-organizer-github-page"
+            >
+              here.
+            </a>{" "}
+          </p>
+          <p className="my-projects">
+            <a
+              href="https://github.com/fabiolamariapina/skincare-routine"
+              target="_blank"
+              id="skincare-routine-link"
+            >
+              Skincare Routine
+            </a>{" "}
+          </p>
+          <img
+            className="my-projects"
+            id="skincare-routine"
+            src="/images/skincare-routine.jpg"
+            alt="makeup"
+          />
+          <p className="my=projects" id="skincare-routine-description">
+            Skincare Routine is a skincare organization app. Like it's intended
+            sister app, Makeup Organizer, once the user creates an account or
+            logs in, they can add, edit, or delete items in their collection. I
+            am also planning on adding a friends feature, where the user can add
+            friends, and a profile page feature, where the user's information on
+            their skin can be seen. This app is my final project for General
+            Assembly's bootcamp. It is being made using the MERN stack for the
+            front-end and back-end functionality, React Router, and Prime React
+            for the UI framework. To follow along as I create this app, visit
+            the Github page{" "}
+            <a
+              href="https://github.com/fabiolamariapina/skincare-routine"
+              target="_blank"
+              id="skincare-routine-github-page"
+            >
+              here.
+            </a>{" "}
+          </p>
         </div>
       </div>
     );

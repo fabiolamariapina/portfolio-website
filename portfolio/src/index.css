@@ -1,4 +1,5 @@
 /* GENERAL STYLING, APPLIES TO ALL PAGES */
+/* DOES NOT APPLY TO DEVICEES OTHER THAN LAPTOP/DESKTOP */
 /* import roboto font from google */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
@@ -55,6 +56,7 @@ a:hover {
 
 #navigation {
   animation: nav-load var(--nav-load-time) ease-in 50ms;
+  font-size: 18px;
 }
 
 @keyframes nav-load {
@@ -175,7 +177,9 @@ a:hover {
   font-size: 36px;
 }
 
-#dream-destinations {
+#dream-destinations,
+#makeup-organizer,
+#skincare-routine {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -183,7 +187,9 @@ a:hover {
   max-width: 50%;
 }
 
-#dream-destinations-link {
+#dream-destinations-link,
+#makeup-organizer-link,
+#skincare-routine-link {
   color: #1a1919;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -191,16 +197,24 @@ a:hover {
 }
 
 #dream-destinations-link:hover,
-#dream-destinations-github-page:hover {
+#dream-destinations-github-page:hover,
+#makeup-organizer-link:hover,
+#makeup-organizer-github-page:hover,
+#skincare-routine-link:hover,
+#skincare-routine-github-page:hover {
   color: #e8b9c2;
 }
 
-#dream-destinations-description {
-  margin: 0px 150px 40px;
+#dream-destinations-description,
+#makeup-organizer-description,
+#skincare-routine-description {
+  margin: 10px 150px 40px;
   text-align: center;
 }
 
-#dream-destinations-github-page {
+#dream-destinations-github-page,
+#makeup-organizer-github-page,
+#skincare-routine-github-page {
   color: #1a1919;
 }
 
@@ -303,13 +317,19 @@ input {
   #in-progress {
     font-size: 24px;
   }
-  #dream-destinations-link {
+  #dream-destinations-link,
+  #makeup-organizer-link,
+  #skincare-routine-link {
     font-size: 16px;
   }
-  #dream-destinations-description {
-    margin: 0px 5px 5px;
+  #dream-destinations-description,
+  #makeup-organizer-description,
+  #skincare-routine-description {
+    margin: 10px 5px 5px;
   }
-  #dream-destinations {
+  #dream-destinations,
+  #makeup-organizer,
+  #skincare-routine {
     max-width: 75%;
   }
   /* CONTACT ME PAGE */
@@ -355,13 +375,19 @@ input {
   #in-progress {
     font-size: 28px;
   }
-  #dream-destinations-link {
+  #dream-destinations-link,
+  #makeup-organizer-link,
+  #skincare-routine-link {
     font-size: 20px;
   }
-  #dream-destinations-description {
-    margin: 0px 10px 10px;
+  #dream-destinations-description,
+  #makeup-organizer-description,
+  #skincare-routine-description {
+    margin: 10px 10px 10px;
   }
-  #dream-destinations {
+  #dream-destinations,
+  #makeup-organizer,
+  #skincare-routine {
     max-width: 75%;
   }
   /* CONTACT ME PAGE */
@@ -407,13 +433,19 @@ input {
   #in-progress {
     font-size: 32px;
   }
-  #dream-destinations-link {
+  #dream-destinations-link,
+  #makeup-organizer-link,
+  #skincare-routine-link {
     font-size: 24px;
   }
-  #dream-destinations-description {
-    margin: 0px 15px 15px;
+  #dream-destinations-description,
+  #makeup-organizer-description,
+  #skincare-routine-description {
+    margin: 10px 15px 15px;
   }
-  #dream-destinations {
+  #dream-destinations,
+  #makeup-organizer,
+  #skincare-routine {
     max-width: 75%;
   }
   /* CONTACT ME PAGE */
@@ -459,13 +491,19 @@ input {
   #in-progress {
     font-size: 36px;
   }
-  #dream-destinations-link {
+  #dream-destinations-link,
+  #makeup-organizer-link,
+  #skincare-routine-link {
     font-size: 28px;
   }
-  #dream-destinations-description {
-    margin: 0px 20px 20px;
+  #dream-destinations-description,
+  #makeup-organizer-description,
+  #skincare-routine-description {
+    margin: 10px 20px 20px;
   }
-  #dream-destinations {
+  #dream-destinations,
+  #makeup-organizer,
+  #skincare-routine {
     max-width: 75%;
   }
   /* CONTACT ME PAGE */
@@ -512,13 +550,19 @@ input {
   #in-progress {
     font-size: 36px;
   }
-  #dream-destinations-link {
+  #dream-destinations-link,
+  #makeup-organizer-link,
+  #skincare-routine-link {
     font-size: 28px;
   }
-  #dream-destinations-description {
-    margin: 0px 25px 25px;
+  #dream-destinations-description,
+  #makeup-organizer-description,
+  #skincare-routine-description {
+    margin: 10px 25px 25px;
   }
-  #dream-destinations {
+  #dream-destinations,
+  #makeup-organizer,
+  #skincare-routine {
     max-width: 75%;
   }
   /* CONTACT ME PAGE */
@@ -564,13 +608,19 @@ input {
   #in-progress {
     font-size: 36px;
   }
-  #dream-destinations-link {
+  #dream-destinations-link,
+  #makeup-organizer-link,
+  #skincare-routine-link {
     font-size: 28px;
   }
-  #dream-destinations-description {
-    margin: 0px 25px 25px;
+  #dream-destinations-description,
+  #makeup-organizer-description,
+  #skincare-routine-description {
+    margin: 10px 25px 25px;
   }
-  #dream-destinations {
+  #dream-destinations,
+  #makeup-organizer,
+  #skincare-routine {
     max-width: 75%;
   }
   /* CONTACT ME PAGE */
@@ -617,14 +667,20 @@ input {
   #in-progress {
     font-size: 40px;
   }
-  #dream-destinations-link {
+  #dream-destinations-link,
+  #makeup-organizer-link,
+  #skincare-routine-link {
     font-size: 32px;
   }
-  #dream-destinations-description {
-    margin: 0px 30px 30px;
+  #dream-destinations-description,
+  #makeup-organizer-description,
+  #skincare-routine-description {
+    margin: 10px 30px 30px;
     font-size: 16px;
   }
-  #dream-destinations {
+  #dream-destinations,
+  #makeup-organizer,
+  #skincare-routine {
     max-width: 75%;
   }
   /* CONTACT ME PAGE */
