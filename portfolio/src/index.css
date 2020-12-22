@@ -260,3 +260,32 @@ input {
   background-color: #ffffff;
   color: #e8b9c2;
 }
+
+/* media queries for responsive design */
+/* media queries for apple devices, based on this article https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* HEADING STYLING */
+  /* make webiste title smaller  */
+  .website-name {
+    font-size: 20px;
+  }
+  /* make sure nav bar is one line */
+  #navigation {
+    font-size: 8px;
+  }
+  /* FOOTER STYLING */
+  .copyright {
+    font-size: 12px;
+  }
+  /* LANDING STYLING */
+  /* make main landing page text a little smaller */
+  .greeting,
+  .tag-line {
+    font-size: 44px;
+  }
+  .headshot {
+    max-width: 75%;
+  }
+}
