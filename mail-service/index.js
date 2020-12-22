@@ -31,7 +31,7 @@ router.post("/send", (req, res, next) => {
 
   var mail = {
     from: name,
-    to: "fabiolamariapina@gmail.com", // email address that you want to receive messages on
+    to: "fabiolamariapina@gmail.com", // email address that I'll want to receive messages on
     subject: "New Message from Contact Form",
     text: content,
   };
@@ -68,6 +68,33 @@ transporter.sendMail(
       console.log(error);
     } else {
       console.log("Message sent: " + info.response);
+      transporter.sendMail(mail, (err, data) => {
+        if (err) {
+          res.json({
+            status: "fail",
+          });
+        } else {
+          res.json({
+            status: "success",
+          });
+
+          transporter.sendMail(
+            {
+              from: "<your email address>",
+              to: email,
+              subject: "Submission was successful",
+              text: `Thank you for contacting me!\n\nForm details\nName: ${name}\n Email: ${email}\n Message: ${message}`,
+            },
+            function (error, info) {
+              if (error) {
+                console.log(error);
+              } else {
+                console.log("Message sent: " + info.response);
+              }
+            }
+          );
+        }
+      });
     }
   }
 );
