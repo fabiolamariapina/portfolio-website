@@ -341,10 +341,27 @@ input {
     font-size: 48px;
   }
   /* ABOUT ME PAGE STYLING */
-   #about-me-header {
+  #about-me-header {
     font-size: 48px;
   }
   .about-me-spiel {
     margin: 0px 10px 10px;
+  }
+  /* MY PROJECTS PAGE */
+  #my-projects-header {
+    font-size: 48px;
+  }
+  #completed-projects,
+  #in-progress {
+    font-size: 28px;
+  }
+  #dream-destinations-link {
+    font-size: 20px;
+  }
+  #dream-destinations-description {
+    margin: 0px 10px 10px;
+  }
+  #dream-destinations {
+    max-width: 75%;
   }
 }
