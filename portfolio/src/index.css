@@ -372,3 +372,55 @@ input {
     margin: 0px 10px 10px;
   }
 }
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 668px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  /* HEADER STYLING */
+  .website-name {
+    font-size: 28px;
+  }
+  /* make nav bar a bit bigger */
+  #navigation {
+    font-size: 18px;
+  }
+  /* FOOTER STYLING */
+  .copyright {
+    font-size: 18px;
+  }
+  /* LANDING STYLING */
+  .greeting,
+  .tag-line {
+    font-size: 52px;
+  }
+  /* ABOUT ME PAGE STYLING */
+  #about-me-header {
+    font-size: 48px;
+  }
+  .about-me-spiel {
+    margin: 0px 10px 10px;
+  }
+  /* MY PROJECTS PAGE */
+  #my-projects-header {
+    font-size: 48px;
+  }
+  #completed-projects,
+  #in-progress {
+    font-size: 28px;
+  }
+  #dream-destinations-link {
+    font-size: 20px;
+  }
+  #dream-destinations-description {
+    margin: 0px 10px 10px;
+  }
+  #dream-destinations {
+    max-width: 75%;
+  }
+  /* CONTACT ME PAGE */
+  #contact-me-header {
+    font-size: 48px;
+  }
+  .contact-me-spiel {
+    margin: 0px 10px 10px;
+  }
+}
