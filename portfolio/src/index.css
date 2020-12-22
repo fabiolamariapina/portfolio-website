@@ -340,4 +340,11 @@ input {
   .tag-line {
     font-size: 48px;
   }
+  /* ABOUT ME PAGE STYLING */
+   #about-me-header {
+    font-size: 48px;
+  }
+  .about-me-spiel {
+    margin: 0px 10px 10px;
+  }
 }
