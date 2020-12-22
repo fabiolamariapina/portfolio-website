@@ -28,7 +28,7 @@ export default class MyProjects extends Component {
               alt="dream destinations"
             />
             <br />
-            <p className="my=projects" id="dream-destinations-description">
+            <p className="my-projects" id="dream-destinations-description">
               Dream Destinations is a travel destinations bucket list
               application. It is the group project I was a part of in General
               Assembly's software engineering immersive. As part of this
