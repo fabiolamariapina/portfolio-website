@@ -476,3 +476,56 @@ input {
     margin: 0px 20px 20px;
   }
 }
+/* IPAD RESPONSIVENESS */
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 813px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* HEADER STYLING */
+  .website-name {
+    font-size: 36px;
+  }
+  /* make nav bar a bit bigger */
+  #navigation {
+    font-size: 20px;
+  }
+  /* FOOTER STYLING */
+  .copyright {
+    font-size: 20px;
+  }
+  /* LANDING STYLING */
+  .greeting,
+  .tag-line {
+    font-size: 60px;
+  }
+  /* ABOUT ME PAGE STYLING */
+  #about-me-header {
+    font-size: 60px;
+  }
+  .about-me-spiel {
+    margin: 0px 25px 25px;
+  }
+  /* MY PROJECTS PAGE */
+  #my-projects-header {
+    font-size: 60px;
+  }
+  #completed-projects,
+  #in-progress {
+    font-size: 36px;
+  }
+  #dream-destinations-link {
+    font-size: 28px;
+  }
+  #dream-destinations-description {
+    margin: 0px 25px 25px;
+  }
+  #dream-destinations {
+    max-width: 75%;
+  }
+  /* CONTACT ME PAGE */
+  #contact-me-header {
+    font-size: 60px;
+  }
+  .contact-me-spiel {
+    margin: 0px 25px 25px;
+  }
+}
