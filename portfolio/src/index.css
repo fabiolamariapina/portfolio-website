@@ -261,11 +261,11 @@ input {
   color: #e8b9c2;
 }
 
-/* media queries for responsive design */
+/* MEDIA QUERIES FOR RESPONSIVE DESIGN */
 /* media queries for apple devices, based on this article https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
-/* ----------- iPhone 4 and 4S ----------- */
+/* ----------- iPhone 4 and 4S and iPhone 5, 5S, 5C and 5SE ----------- */
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   /* HEADING STYLING */
   /* make webiste title smaller  */
   .website-name {
