@@ -288,4 +288,11 @@ input {
   .headshot {
     max-width: 75%;
   }
+  /* ABOUT ME PAGE STYLING */
+  #about-me-header {
+    font-size: 44px;
+  }
+  .about-me-spiel {
+    margin: 0px 5px 5px;
+  }
 }
