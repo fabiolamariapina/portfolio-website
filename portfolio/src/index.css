@@ -364,4 +364,11 @@ input {
   #dream-destinations {
     max-width: 75%;
   }
+  /* CONTACT ME PAGE */
+  #contact-me-header {
+    font-size: 48px;
+  }
+  .contact-me-spiel {
+    margin: 0px 10px 10px;
+  }
 }
